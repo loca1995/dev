@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box h1 {
+  text-align: center;
+  margin: auto;
+  background-color: aqua;
+  color: red;
+  height: 15vh;
+  cursor: pointer;
+}
+.group {
+  display: flex;
+  margin-top: 5%;
+}
+.first1,
+.first2,
+.first3 {
+  width: 30%;
+  margin: 5%;
+  border: 3px solid rgb(49, 48, 48);
+  box-shadow: 1px 10px 7px 3px rgb(155, 154, 154);
+  text-align: center;
+  background-color: rebeccapurple;
+  color: aqua;
+}
+h2 {
+  cursor: pointer;
+}
